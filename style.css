@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  width: 100%;
+  max-width: 550px;
+  background-color: white;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 61px;
+  height: 42px;
+}
+
+select,
+button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  height: 42px;
+}
+
+select {
+  width: 312px;
+}
+
+button {
+  width: 123px;
+  cursor: pointer;
+}
+
+.colors {
+  background-color: aqua;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  margin: 0px auto 0 auto;
+}
+
+.colors > div {
+  flex: 1 1 0;
+}
+
+.container {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 550px;
+}
+
+.color-1 {
+  background-color: #ff0000;
+}
+
+.color-2 {
+  background-color: #00ff00;
+}
+
+.color-3 {
+  background-color: #0000ff;
+}
+
+.color-4 {
+  background-color: #ffff00;
+}
+
+.color-5 {
+  background-color: #ff00ff;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.bottom-container div {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.bottom-container > div {
+  height: 100%;
+}
+
+h1 {
+  font-weight: 600;
+}
