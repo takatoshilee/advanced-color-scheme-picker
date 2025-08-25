@@ -21,7 +21,6 @@ body {
   justify-content: center;
   min-height: 70px;
   width: 100%;
-  max-width: 550px;
   background-color: white;
   gap: 10px;
 }
@@ -66,7 +65,7 @@ button {
 .container {
   border: 1px solid black;
   width: 100%;
-  max-width: 550px;
+  max-width: 700px;
 }
 
 .color-1 {
